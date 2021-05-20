@@ -17,7 +17,7 @@ AMyFPCharacter::AMyFPCharacter()
 	cam->AttachTo(RootComponent);
 	cam->SetRelativeLocation(FVector(0, 0, 40));
 
-
+	jumping = false;
 
 }
 
@@ -33,6 +33,11 @@ void AMyFPCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (jumping)
+	{
+		Jump();
+	}
+
 }
 
 // Called to bind functionality to input
@@ -45,6 +50,22 @@ void AMyFPCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	InputComponent->BindAxis("HoriRot", this, &AMyFPCharacter::HoriRot);
 	InputComponent->BindAxis("VertRot", this, &AMyFPCharacter::VertRot);
+
+	InputComponent->BindAction("Jump", IE_Pressed, this, &AMyFPCharacter::CheckJump);
+	InputComponent->BindAction("Jump", IE_Released, this, &AMyFPCharacter::CheckJump);
+}
+
+void AMyFPCharacter::CheckJump()
+{
+	if (jumping)
+	{
+		jumping = false;
+	}
+	else
+	{
+		jumping = true;
+	}
+		
 }
 
 void AMyFPCharacter::HoriMove(float value)

@@ -35,6 +35,11 @@ private :
 	void HoriRot(float value);
 	void VertRot(float value);
 
+	void CheckJump();
+
+	UPROPERTY()
+		bool jumping;
+
 	UPROPERTY(EditAnywhere, Category = "Camera")
 		UCameraComponent* cam;
 
