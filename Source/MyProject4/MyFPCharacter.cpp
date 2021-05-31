@@ -2,6 +2,8 @@
 
 
 #include "MyFPCharacter.h"
+#include "Camera/CameraComponent.h"
+#include "Master_Interacble.h"
 
 // Sets default values
 AMyFPCharacter::AMyFPCharacter()
@@ -53,7 +55,26 @@ void AMyFPCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 	InputComponent->BindAction("Jump", IE_Pressed, this, &AMyFPCharacter::CheckJump);
 	InputComponent->BindAction("Jump", IE_Released, this, &AMyFPCharacter::CheckJump);
+
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AMyFPCharacter::Interact);
 }
+
+void AMyFPCharacter::Interact()
+{
+	FHitResult OutHit;
+	FVector Start = GetFirstPersonCameraComponent()->GetComponentLocation();
+	FVector End = Start + GetFirstPersonCameraComponent()->GetForwardVector() * 300;
+
+	if(GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility))
+	{
+		AMaster_Interacble* Obj = Cast<AMaster_Interacble>(OutHit.Actor);
+		if (Obj)
+		{
+			Obj->Interact();
+		}
+	}
+}
+
 
 void AMyFPCharacter::CheckJump()
 {
