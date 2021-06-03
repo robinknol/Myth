@@ -17,10 +17,13 @@ class MYPROJECT4_API ALight_Interacble : public AMaster_Interacble
 
 public:
 	virtual void Interact() override;
-	
+
 	UPROPERTY()
 	bool State;
 
+	UPROPERTY(EditAnywhere)
+	FName LevelName;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float Intensity;
 

@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Builders/CurvedStairBuilder.h"
+#include "Components/SceneComponent.h"
 #include "Master_Interacble.generated.h"
 
 UCLASS()
@@ -13,8 +15,10 @@ class MYPROJECT4_API AMaster_Interacble : public AActor
 	
 public:	
 	AMaster_Interacble();
+	/*
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
+	*/
 
 public:	
 	virtual void Interact() PURE_VIRTUAL(AMaster_Interacble::Interact, );

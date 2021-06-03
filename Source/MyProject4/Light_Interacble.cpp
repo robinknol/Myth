@@ -3,6 +3,8 @@
 
 #include "Light_Interacble.h"
 
+#include "Kismet/GameplayStatics.h"
+
 ALight_Interacble::ALight_Interacble()
 {
 	State = true;
@@ -14,6 +16,8 @@ ALight_Interacble::ALight_Interacble()
 
 void ALight_Interacble::Interact()
 {
+	UGameplayStatics::OpenLevel(this, LevelName);
+
 	if(State)
 	{
 		Light->SetIntensity(0);

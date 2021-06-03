@@ -11,12 +11,12 @@ AMaster_Interacble::AMaster_Interacble()
 
 	_RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root Component"));
 	RootComponent = _RootComponent;
-
+	
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(RootComponent);
 }
 
-
+/*
 // Called when the game starts or when spawned
 void AMaster_Interacble::BeginPlay()
 {
@@ -28,3 +28,4 @@ void AMaster_Interacble::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+ */
