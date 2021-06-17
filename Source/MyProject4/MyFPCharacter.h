@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 #include "MyFPCharacter.generated.h"
 
@@ -13,22 +12,41 @@ class MYPROJECT4_API AMyFPCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	USkeletalMeshComponent* Mesh1P;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UCameraComponent* FirstPersonCameraComponent;
+
+	UPROPERTY()
+		FVector Start;
+
+	UPROPERTY()
+		FVector End;
+
+	UPROPERTY()
+		FHitResult OutHit;
 public:
 	// Sets default values for this character's properties
 	AMyFPCharacter();
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
+	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-private :
+	FORCEINLINE UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+
+	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
+
+	bool BlackBoxCollected;
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	void Interactable();
+private:
 	void HoriMove(float value);
 	void VertMove(float value);
 
