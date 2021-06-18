@@ -1,8 +1,8 @@
 ## [titel van jullie game]
-Project team:[jullie namen]
+Project team:[Defne Aykutalp, Kimberley Jeffry, Lennard Hartog, Miguel Heijmans, Robin Knol, Suzane Marmolejos]
 
 Platform:
-[jullie platfom]
+[Unreal Engine 4.26.2]
 
 ### Korte omschrijving van de game
 ...
@@ -11,7 +11,7 @@ Platform:
 #### Producten Werkproces 1
 | Product  | Link |
 | ------ |  ------ |
-| Link naar online product backlog (Trello) | [Backlog]
+| Link naar online product backlog (Trello) | [https://trello.com/b/pplGpHjo/mythe]
 | Logboek (pdf)                             | [Logboek]
 | Game concept doc (pdf)                    | [GameDesignDoc]
 |<img width=500/>|<img width=300/>|
@@ -19,7 +19,7 @@ Platform:
 #### Producten Werkproces 2
 | Product  | Link |
 | ------ |  ------ |
-| Online Product backlog & Sprint backlog + DoD (Trello)    | [Backlog]
+| Online Product backlog & Sprint backlog + DoD (Trello)    | [https://trello.com/b/pplGpHjo/mythe]
 | Sprint retrospective verslagen (pdf)                      | [RetrospectiveVerslagen]
 | Logboek (pdf)                                             | [Logboek]
 | Opnames sprint retrospectives (Teams opnames)             | [Folder op teams]
@@ -29,7 +29,7 @@ Platform:
 #### Producten Werkproces 3
 | Product  | Link |
 | ------ |  ------ |
-| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen]
+| Sprint retrospective verslagen (pdf)  | [https://trello.com/b/pplGpHjo/mythe]
 | Sprint review verslagen (pdf)         | [ReviewVerslagen]
 | Link naar online speelbaar prototype  | [Prototype]
 | Logboek (pdf)                         | [Logboek]
