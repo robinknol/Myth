@@ -30,7 +30,7 @@ Platform:
 #### Producten Werkproces 3
 | Product  | Link |
 | ------ |  ------ |
-| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen](Sprint review verslagen.pdf)
+| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen](../blob/master/Sprint%20review%20verslagen.pdf)
 | Sprint review verslagen (pdf)         | [ReviewVerslagen]
 | Link naar online speelbaar prototype  | [Prototype]
 | Logboek (pdf)                         | [Logboek]
