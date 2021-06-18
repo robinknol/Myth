@@ -1,11 +1,12 @@
-## [titel van jullie game]
+## [Flight-19]
 Project team:[Defne Aykutalp, Kimberley Jeffry, Lennard Hartog, Miguel Heijmans, Robin Knol, Suzane Marmolejos]
 
 Platform:
 [Unreal Engine 4.26.2]
 
 ### Korte omschrijving van de game
-...
+[Eng] During a Flight you crashed on an island in the bermula traingle where you have to collect blackboxes scattered.
+[NL] Tijdens een vlucht kwam je in een vlieg ongeluk terug waarbij je op een eiland lande in de bermula driehoek op dit eiland zitten allemaal Blackboxes die je moet verzammelen.
 
 ---
 #### Producten Werkproces 1
@@ -29,7 +30,7 @@ Platform:
 #### Producten Werkproces 3
 | Product  | Link |
 | ------ |  ------ |
-| Sprint retrospective verslagen (pdf)  | [https://trello.com/b/pplGpHjo/mythe]
+| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen]
 | Sprint review verslagen (pdf)         | [ReviewVerslagen]
 | Link naar online speelbaar prototype  | [Prototype]
 | Logboek (pdf)                         | [Logboek]
