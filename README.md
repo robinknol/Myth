@@ -12,7 +12,7 @@ Platform:
 #### Producten Werkproces 1
 | Product  | Link |
 | ------ |  ------ |
-| Link naar online product backlog (Trello) | [https://trello.com/b/pplGpHjo/mythe]
+| Link naar online product backlog (Trello) |https://trello.com/b/pplGpHjo/mythe
 | Logboek (pdf)                             | [Logboek]
 | Game concept doc (pdf)                    | [GameDesignDoc]
 |<img width=500/>|<img width=300/>|
@@ -20,7 +20,7 @@ Platform:
 #### Producten Werkproces 2
 | Product  | Link |
 | ------ |  ------ |
-| Online Product backlog & Sprint backlog + DoD (Trello)    | [https://trello.com/b/pplGpHjo/mythe]
+| Online Product backlog & Sprint backlog + DoD (Trello)    |https://trello.com/b/pplGpHjo/mythe
 | Sprint retrospective verslagen (pdf)                      | [RetrospectiveVerslagen]
 | Logboek (pdf)                                             | [Logboek]
 | Opnames sprint retrospectives (Teams opnames)             | [Folder op teams]
