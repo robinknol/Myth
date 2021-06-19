@@ -14,7 +14,7 @@ Platform:
 | ------ |  ------ |
 | Link naar online product backlog (Trello) | [Trello](https://trello.com/b/pplGpHjo/mythe)
 | Logboek (pdf)                             | [Logboek]
-| Game concept doc (pdf)                    | [GameDesignDoc]
+| Game concept doc (pdf)                    | [GameDesignDoc](/Gamedesing_document.pdf)
 |<img width=500/>|<img width=300/>|
    
 #### Producten Werkproces 2
@@ -23,18 +23,18 @@ Platform:
 | Online Product backlog & Sprint backlog + DoD (Trello)    | [Trello](https://trello.com/b/pplGpHjo/mythe)
 | Sprint retrospective verslagen (pdf)                      | [RetrospectiveVerslagen]
 | Logboek (pdf)                                             | [Logboek]
-| Opnames sprint retrospectives (Teams opnames)             | [Folder op teams]
-| Opnames standups (Teams opnames)                          | [Folder op teams]
+| Opnames sprint retrospectives (Teams opnames)             | [Folder op teams](https://mediacollegeamsterdam.sharepoint.com/teams/MytheGDGA2021-Team7/Gedeelde%20documenten/Team%207/Opnames%20Sprint%20Retrospective/Vergadering%20in%20Team%2007-20210531_083454-Meeting%20Recording.mp4)
+| Opnames standups (Teams opnames)                          | [Folder op teams](https://mediacollegeamsterdam.sharepoint.com/teams/MytheGDGA2021-Team7/Gedeelde%20documenten/Team%207/Opnames%20van%20standups/Vergadering%20in%20Team%2007-20210614_074850-Meeting%20Recording.mp4)
 |<img width=500/>|<img width=300/>|
    
 #### Producten Werkproces 3
 | Product  | Link |
 | ------ |  ------ |
-| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen](/Sprint%20review%20verslagen.pdf)
-| Sprint review verslagen (pdf)         | [ReviewVerslagen]
-| Link naar online speelbaar prototype  | [Prototype]
+| Sprint retrospective verslagen (pdf)  | [RetrospectiveVerslagen]
+| Sprint review verslagen (pdf)         | [ReviewVerslagen](/Sprint%20review%20verslagen.pdf)
+| Link naar online speelbaar prototype  | Prototype
 | Logboek (pdf)                         | [Logboek]
-| Asset planning (pdf)                  | [AssetPlanning]
+| Asset planning (pdf)                  | [AssetPlanning](Asset%20Planning.pdf)
 |<img width=500/>|<img width=300/>|
 
    [Backlog]: <https://trello.com/b/hik72z4q/mythe-2019-voorbeeld-trello>
